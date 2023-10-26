@@ -1,0 +1,57 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/*font family*/
+@font-face {font-family: 'Orgovan';src: url('./assets/fonts/Orgovan-Brush.woff2') format('woff2'),    url('./assets/fonts/Orgovan-Brush.woff') format('woff');font-weight: normal;font-style: normal;font-display: swap;}
+/*basic code*/
+body {background: #D0CBF3;margin: 0;overflow-y: auto;overflow-x: hidden;}
+h1, h2 {font-family: 'Orgovan';}
+/*main graph*/
+.main-graph::-webkit-scrollbar {background-color: #D0CBF3; height: 8px; }
+.main-graph::-webkit-scrollbar-button { background-color: #D0CBF3; height: 8px;width: 10px;}
+.main-graph::-webkit-scrollbar-track  { background-color:#D0CBF3; }
+.main-graph::-webkit-scrollbar-track-piece  { background-color: #D0CBF3;}
+.main-graph::-webkit-scrollbar-thumb  {  background: #3f3963; }
+.main-graph::-webkit-scrollbar-corner { background-color:#D0CBF3;  }
+.main-graph::-webkit-resizer {background-color:#D0CBF3; }
+.main-graph::-webkit-scrollbar-button:single-button {background-color: #D0CBF3;display: block;border-style: solid;height: 10px;width: 10px;}
+.main-graph::-webkit-scrollbar-button:horizontal:start{border-width: 5px 5px 5px 0px;border-color: transparent #3f3963 transparent transparent;}
+.main-graph::-webkit-scrollbar-button:horizontal:end{border-width: 5px 0px 5px 5px;border-color: transparent transparent transparent #3f3963;}
+.main-graph{scrollbar-color: #3f3963 #D0CBF3; scrollbar-width: thin;}
+/*main table*/
+.main-table::-webkit-scrollbar {background-color: #D0CBF3; height: 8px; }
+.main-table::-webkit-scrollbar-button { background-color: #D0CBF3; height: 8px;width: 10px;}
+.main-table::-webkit-scrollbar-track  { background-color:#D0CBF3; }
+.main-table::-webkit-scrollbar-track-piece  { background-color: #D0CBF3;}
+.main-table::-webkit-scrollbar-thumb  {  background: #3f3963; }
+.main-table::-webkit-scrollbar-corner { background-color:#D0CBF3;  }
+.main-table::-webkit-resizer {background-color:#D0CBF3; }
+.main-table::-webkit-scrollbar-button:single-button {background-color: #D0CBF3;display: block;border-style: solid;height: 10px;width: 10px;}
+.main-table::-webkit-scrollbar-button:horizontal:start{border-width: 5px 5px 5px 0px;border-color: transparent #3f3963 transparent transparent;}
+.main-table::-webkit-scrollbar-button:horizontal:end{border-width: 5px 0px 5px 5px;border-color: transparent transparent transparent #3f3963;}
+.main-table{scrollbar-color: #3f3963 #D0CBF3; scrollbar-width: thin;}
+/**/
+html::-webkit-scrollbar {background-color: #D0CBF3 ; width: 10px;}
+html::-webkit-scrollbar-button { background-color: #D0CBF3 ; color: #D0CBF3 ; }
+html::-webkit-scrollbar-track  { background-color:#D0CBF3 ; }
+html::-webkit-scrollbar-track-piece  { background-color: #D0CBF3 }
+html::-webkit-scrollbar-thumb  {  background:  #231E3E; }
+html::-webkit-scrollbar-corner { background-color:#D0CBF3 ;  }
+html::-webkit-resizer {background-color:#D0CBF3 ; }
+html::-webkit-scrollbar-button:single-button {display: none;}
+html{scrollbar-color: #231E3E #D0CBF3; scrollbar-width: thin;}
+/**/
+textarea::-webkit-scrollbar {background-color: #D0CBF3 ; width: 10px;}
+textarea::-webkit-scrollbar-button { background-color: #D0CBF3 ; color: #D0CBF3 ; }
+textarea::-webkit-scrollbar-track  { background-color:#D0CBF3 ; }
+textarea::-webkit-scrollbar-track-piece  { background-color: #D0CBF3 }
+textarea::-webkit-scrollbar-thumb  {  background:  #231E3E; }
+textarea::-webkit-scrollbar-corner { background-color:#D0CBF3 ;  }
+textarea::-webkit-resizer {background-color:#D0CBF3 ; }
+textarea::-webkit-scrollbar-button:single-button {display: none;}
+textarea{scrollbar-color: #231E3E #D0CBF3; scrollbar-width: thin;}
+/**/
+.loader {animation: spin .8s linear infinite;}
+@-webkit-keyframes spin {from {-webkit-transform:rotate(0deg);}to {-webkit-transform:rotate(360deg);}}
+@keyframes spin {from {transform:rotate(0deg);}to {transform:rotate(360deg);}}

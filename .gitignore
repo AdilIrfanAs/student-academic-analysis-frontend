@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+package-lock.json
+
+.env
+.en.test
+.en.local
+.en.production
+.en.development
+
+build
